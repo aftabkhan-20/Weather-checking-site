@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AK Pro Weather</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AK Pro Weather</h1>
+    <select id="cityDropdown">
+      <option value="Lahore">Lahore</option>
+      <option value="Karachi">Karachi</option>
+      <option value="Islamabad">Islamabad</option>
+      <option value="Peshawar">Peshawar</option>
+      <option value="Quetta">Quetta</option>
+      <option value="Multan">Multan</option>
+      <option value="Faisalabad">Faisalabad</option>
+      <option value="Mardan">Mardan</option>
+      <option value="Swat">Swat</option>
+      <option value="Abbottabad">Abbottabad</option>
+    </select>
+    <button onclick="getWeather()">Get Weather</button>
+    <div id="weatherResult" class="weather-box"></div>
+    <div id="forecast" class="forecast-box"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
