@@ -1,0 +1,61 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://images.unsplash.com/photo-1508610048659-a06fba4f3c4f?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+.background-overlay {
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+}
+.app-container {
+  text-align: center;
+  padding: 30px;
+}
+.title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 1rem;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0077cc;
+}
+#weatherData {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
+.cities-section {
+  margin-top: 40px;
+}
+.cities button {
+  margin: 5px;
+}
+.news-section {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
